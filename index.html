@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/iconsfont.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CodeIT Store</title>
+  </head>
+  <body class="body">
+    <div class="container-xl header-container">
+      <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light bg-body">
+          <div class="container-xl p-0">
+          <a class="navbar-brand col-3" href="#">
+            <div class="brand-text1"><span class="code">Code</span> IT</div>
+            <div class="brand-text2">STORE</div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <button type="button" class="btn-close d-md-none d-lg-none" aria-label="Close"></button>
+            <ul class="navbar-nav mr-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  >ALL BRANDS <span class="arrow icon-arrow_down"></span
+                ></a>
+                <ul
+                  class="dropdown-menu dropdown-menu-light"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Apple</a></li>
+                  <li><a class="dropdown-item" href="#">Samsung</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Sony</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Huawei</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Xiaomi</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">HTC</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Asus</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">LATEST</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">FEATURED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">CONTACT</a>
+              </li>
+            </ul>
+            <form class="search-form d-flex">
+              <input class="search-input" type="text" placeholder="Search..." aria-label="Search">
+              <button class="search-btn icon-search" type="submit"></button>
+            </form>
+            <button
+              class="
+                shopping-block
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+            >
+              <img src="./img/shopping_bag.svg" alt="" class="bag" />
+              <span class="dollar">$</span>
+              <span class="total-price">460.00</span>
+              <span class="circle">2</span>
+            </button>
+          </div>
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /.header -->
+    </div>
+    <!-- /.container-xl -->
+    
+    <section class="section">
+      <div class="container-fluid p-0 wishlist-back d-flex align-items-center" style="background-image: url('img/abstract.png')">
+        <div
+          class="
+            container-xl
+            d-flex
+            align-items-center
+            justify-content-between
+          "
+        >
+          <h1 class="title">MY WISHLIST</h1>
+          <div class="pages d-flex align-items-center">
+            <a href="#" class="home">HOME</a>
+            <span class="arrow icon-arrow_right"></span>
+            <span class="wishlist-text">WISHLIST</span>
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.container-fluid -->
+      <div class="container-xl clear-container d-flex justify-content-end">
+        <button class="clear-btn">CLEAR LIST</button>
+      </div>
+      <div class="container-xl">
+        <div class="row about-phone-wrapper about-phone-container gy-5 justify-content-around">
+          <div
+            class="
+             about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_mate_S.png"
+                alt="huawei_mate_S"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100 pt-3 w-100">
+              <span class="model">HUAWEI MATE S</span>
+              <span class="price mb-3">$280.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/sony_xperia_z5.png"
+                alt="sony_xperia_z5"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">SONY XERIA Z5</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/xiaomi_mi_41.png"
+                alt="xiaomi_mi_41"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">XIAOMI MI 41</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/iphone_rose_gold.png"
+                alt="iphone_rose_gold"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">IPHONE ROSE GOLD</span>
+              <div class="prices-block mb-4">
+                <span class="price p-1">$280.00</span>
+                <span class="old-price">$649.00</span>
+              </div>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/galaxy_core_prime.png"
+                alt="galaxy_core_prime"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">GALAXY CORE PRIME</span>
+              <span class="price mb-3">$399.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/apple_iphone_6s.png"
+                alt="apple_iphone_6s"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">APPLE IPHONE 6S</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/sony_xperia_z5.png"
+                alt="sony_xperia_z5"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">SONY XERIA Z5</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/xiaomi_mi_41.png"
+                alt="xiaomi_mi_41"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">XIAOMI MI 41</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/iphone_rose_gold.png"
+                alt="iphone_rose_gold"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">IPHONE ROSE GOLD</span>
+              <div class="prices-block mb-4">
+                <span class="price p-1">$280.00</span>
+                <span class="old-price">$649.00</span>
+              </div>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/galaxy_core_prime.png"
+                alt="galaxy_core_prime"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">GALAXY CORE PRIME</span>
+              <span class="price mb-3">$399.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/apple_iphone_6s.png"
+                alt="apple_iphone_6s"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">APPLE IPHONE 6S</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_mate_S.png"
+                alt="huawei_mate_S"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI MATE S</span>
+              <span class="price mb-3">$280.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4 pb-2">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/sony_xperia_z5.png"
+                alt="sony_xperia_z5"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">SONY XERIA Z5</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/xiaomi_mi_41.png"
+                alt="xiaomi_mi_41"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">XIAOMI MI 41</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/iphone_rose_gold.png"
+                alt="iphone_rose_gold"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">IPHONE ROSE GOLD</span>
+              <div class="prices-block mb-4">
+                <span class="price p-1">$280.00</span>
+                <span class="old-price">$649.00</span>
+              </div>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/galaxy_core_prime.png"
+                alt="galaxy_core_prime"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">GALAXY CORE PRIME</span>
+              <span class="price mb-3">$399.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/apple_iphone_6s.png"
+                alt="apple_iphone_6s"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">APPLE IPHONE 6S</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              col-3
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_mate_S.png"
+                alt="huawei_mate_S"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI MATE S</span>
+              <span class="price mb-3">$280.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/sony_xperia_z5.png"
+                alt="sony_xperia_z5"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">SONY XERIA Z5</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/xiaomi_mi_41.png"
+                alt="xiaomi_mi_41"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">XIAOMI MI 41</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/iphone_rose_gold.png"
+                alt="iphone_rose_gold"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">IPHONE ROSE GOLD</span>
+              <div class="prices-block mb-4">
+                <span class="price p-1">$280.00</span>
+                <span class="old-price">$649.00</span>
+              </div>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6 
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+              justify-content-between
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/huawei_g8_4g.png"
+                alt="huawei_g8_4g"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">HUAWEI G8 4G</span>
+              <span class="price mb-3">$350.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/galaxy_core_prime.png"
+                alt="galaxy_core_prime"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">GALAXY CORE PRIME</span>
+              <span class="price mb-3">$399.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+          <div
+            class="
+              about-phone col-lg-3 col-md-3 col-sm-6
+              border border-light
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div class="image-holder pt-4">
+              <div class="remove-block">
+                <button class="remove-btn remove">REMOVE FROM LIST</button>
+              </div>
+              <img
+                src="/img/phones/apple_iphone_6s.png"
+                alt="apple_iphone_6s"
+                class="phone-image pb-4"
+              />
+            </div>
+            <div class="content-holder d-flex justify-content-end w-100">
+              <span class="model">APPLE IPHONE 6S</span>
+              <span class="price mb-3">$550.00</span>
+              <div class="buttons-block">
+                <button class="remove icon-remove"></button>
+                <button class="cart icon-cart"></button>
+              </div>
+            </div>
+          </div>
+          <!-- /.about-phone -->
+        </div>
+        <!-- /.row -->
+        <div class="container-xl">
+          <div class="list" id="list"></div>
+          <div class="pagination pagination-sm justify-content-center" id="pagination"></div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+      <section class="border-top">
+      <div class="container-xl carousel-container py-3 px-4 border border-secondary border-2">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="inner-slider">
+             <div class="card">
+               <div class="card-body d-flex">
+                 <div class="card-image icon-hand"></div>
+                 <a href="#" class="card-link">
+                   <h6 class="card-title">FULL WARRENTY</h6>
+                   <p class="card-text">Read About Our Warrenty</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner-slider">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <div class="card-image icon-truck"></div>
+                  <a href="#" class="card-link">
+                    <h6 class="card-title">EXPRESS SHIPPING</h6>
+                    <p class="card-text">Local & International Shipping</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner-slider">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <div class="card-image icon-comment"></div>
+                  <a href="#" class="card-link">
+                    <h6 class="card-title">MOBILE BLOG</h6>
+                    <p class="card-text">Discuss Your Favourite Phone</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner-slider">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <div class="card-image icon-headphones"></div>
+                  <a href="#" class="card-link">
+                    <h6 class="card-title">27/7 SUPPORT</h6>
+                    <p class="card-text">Get Full Support via Chat</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner-slider">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <div class="card-image icon-truck"></div>
+                  <a href="#" class="card-link">
+                    <h6 class="card-title">EXPRESS SHIPPING</h6>
+                    <p class="card-text">Local & International Shipping</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.swiper-container -->
+        
+      </div>
+    </section>
+    <!-- /.section -->
+    <footer class="footer">
+      <div
+        class="
+          container-fluid
+          h-100
+          p-0
+          bg-light
+          border-top border-3
+          d-flex
+          align-items-center
+        "
+      >
+        <div class="container-xl">
+          <div class="row subscribe-holder align-items-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 fw-bold subscribe-text">
+              SUBSCRIBE LATEST SMARTPHONES NEWS & GREAT DEALS WE OFFER
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6 p-0 input-holder">
+              <div class="input-group d-flex">
+                <input
+                  type="email"
+                  class="input subscribe-input"
+                  placeholder="ENТЕR YOUR EMAIL ADRESS..."
+                  required
+                />
+                <button
+                  class="button-envelope icon-envelope bg-light border-0"
+                  type="button"
+                ></button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0 d-flex justify-content-end social-media-holder">
+              <div class="social-media">
+                <a href="#" class="media-link icon-twitter"></a
+                ><a href="#" class="media-link icon-facebook"></a
+                ><a href="#" class="media-link icon-linkedin"></a
+                ><a href="#" class="media-link icon-google"></a
+                ><a href="#" class="media-link icon-pinterest"></a
+                ><a href="#" class="media-link icon-youtube"></a
+                ><a href="#" class="media-link icon-rss"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+      <div class="container-fluid p-0 d-flex align-items-center" style="height: 92px;background-color: #e6e6e6">
+        <div class="container-xl">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-6" style="font-size: 11px;">COPYRIGHT &#169; 2015 <span style="font-weight: 600">CODEITSTORE</span> ALL RIGHTS RESERVED</div>
+            <div class="col-6 cards-wrapper d-flex justify-content-end">
+              <img src="/img/cards/card1.svg" class="card-image"></img>
+              <img src="/img/cards/card2.svg" class="card-image"></img>
+              <img src="/img/cards/card3.svg" class="card-image"></img>
+              <img src="/img/cards/card4.svg" class="card-image"></img>
+              <img src="/img/cards/card5.svg" class="card-image"></img>
+              <img src="/img/cards/card6.svg" class="card-image"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+    </footer>
+    <!-- /.footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

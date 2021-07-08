@@ -1,0 +1,686 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #444;
+  background-color: #fff;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.header-container {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.navbar {
+  height: 46px;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  margin: 0;
+}
+
+.collapse:not(.show) {
+  display: flex;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 none;
+}
+
+.brand-text1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #222;
+}
+
+.code {
+  color: #e24545;
+  position: relative;
+}
+
+.code::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 2px;
+  background-color: #e24545;
+  bottom: 0;
+}
+
+.brand-text2 {
+  font-size: 12px;
+  letter-spacing: 9px;
+}
+
+.nav-item {
+  margin-right: 0.5em;
+  position: relative;
+}
+
+.nav-item:hover::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background-color: #e24545;
+  bottom: 2%;
+  left: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.nav-link:hover {
+  color: #e24545;
+  transition: color 0.2s;
+}
+
+.dropdown-menu {
+  color: #444;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.2em;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-input {
+  display: none;
+  position: absolute;
+  transform: translate(-95%, 103%);
+  width: 34em;
+  height: 38px;
+  border: 1px solid #444;
+  color: #444;
+  padding: 15px 10px;
+  outline: none;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.search-btn {
+  background-color: #fff;
+  border: none;
+  margin-right: 0;
+}
+
+.shopping-block {
+  background-color: #fff;
+  width: 140px;
+  height: 44px;
+  border: 2px solid #444;
+  margin-left: 50px;
+  transition: all 0.2s;
+}
+
+.shopping-block:hover {
+  box-shadow: 0 0 0 0.02em rgb(92, 90, 90);
+  border: 2px solid rgb(92, 90, 90);
+  color: #e24545;
+  transition: all 0.2s;
+}
+
+.shopping-block:hover .circle {
+  background-color: #e24545;
+  transition: background-color 0.2s;
+}
+
+.bag {
+  width: 18px;
+  height: 21px;
+  margin-right: 8px;
+}
+
+.dollar,
+.total-price {
+  font-size: 15px;
+}
+
+.dollar {
+  margin-right: 8px;
+}
+
+.total-price {
+  font-weight: bold;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #222;
+  border: 5px solid #fff;
+  margin-top: 0;
+  margin-left: 13.7em;
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+}
+
+.wishlist-back {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 26px;
+  color: #222;
+  font-weight: 700;
+  margin: 0;
+}
+
+.home {
+  text-decoration: none;
+  color: #444;
+  font-size: 12px;
+}
+
+.home:hover {
+  color: #e24545;
+  transition: color 0.2s;
+}
+
+.wishlist-text {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.clear-container {
+  margin-bottom: 40px;
+}
+
+.clear-btn {
+  width: 120px;
+  height: 38px;
+  border: 2px solid #444;
+  background-color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clear-btn:enabled:hover {
+  box-shadow: 0 0 0 0.03em rgb(92, 90, 90);
+  border: 2px solid rgb(92, 90, 90);
+  color: #e24545;
+  transition: all 0.2s;
+}
+
+.about-phone-wrapper {
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.about-phone {
+  width: 23%;
+  height: 375px;
+  padding: 0;
+}
+
+.about-phone:hover .content-holder {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s;
+}
+
+.about-phone .remove-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.823);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.2s;
+}
+
+.about-phone:hover .remove-block {
+  opacity: 1;
+}
+
+.remove-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.remove-btn {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+
+.image-holder {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 68%;
+}
+
+.content-holder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 32%;
+}
+
+.content-holder::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #e24545;
+  top: 0;
+  transform: translateX(50%);
+}
+
+.about-phone:hover .content-holder::before {
+  display: none;
+}
+
+.buttons-block .remove,
+.buttons-block .cart {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #eee;
+}
+
+.buttons-block .remove:hover,
+.buttons-block .cart:hover {
+  background-color: #e24545;
+  border: none;
+  transition: all 0.2s;
+}
+
+.icon-remove:hover::before,
+.icon-cart:hover::before,
+.icon-twitter:hover::before,
+.icon-facebook:hover::before,
+.icon-linkedin:hover::before,
+.icon-google:hover::before,
+.icon-pinterest:hover::before,
+.icon-youtube:hover::before,
+.icon-rss:hover::before {
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.buttons-block {
+  display: flex;
+  transform: translateY(1px);
+}
+
+.buttons-block button + button {
+  position: relative;
+  left: -1px;
+}
+
+.model {
+  color: #222;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 16px;
+  color: #e24545;
+  font-weight: 700;
+}
+
+.old-price {
+  position: relative;
+  display: inline-block;
+  color: #888;
+}
+
+.old-price::before {
+  content: '';
+  width: 65px;
+  height: 1px;
+  background-color: #888;
+  top: 50%;
+  position: absolute;
+}
+
+.pagination .page-link + .page-link {
+  margin-left: 7px;
+}
+
+.page-link {
+  width: 31px;
+  height: 31px;
+  position: relative;
+  display: block;
+  color: #888;
+  text-decoration: none;
+  background-color: #fff;
+  outline: 1px solid #dee2e6;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.page-link:hover {
+  color: #e24545;
+  outline: 2px solid #888;
+  background-color: #f6f6f8;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 0.15rem #e24545;
+  color: #e24545;
+  outline: 2px solid #888;
+  background-color: #f6f6f8;
+}
+
+.pagination {
+  margin-bottom: 110px;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.carousel-container {
+  position: relative;
+  margin: 94px auto 100px;
+}
+
+.carousel-container::before {
+  content: '';
+  width: 96%;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  transform: translateY(-3px);
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+.card {
+  border: none;
+}
+
+.card-image {
+  font-size: 32px;
+  top: 0;
+}
+
+.cards-wrapper .card-image + .card-image {
+  margin-left: 5px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.card-link:hover {
+  color: #e24545;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 12px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.card-text::before {
+  content: '';
+  width: 10px;
+  height: 0.1em;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  height: 203px;
+}
+
+.subscribe-holder {
+  margin-right: 0;
+}
+
+.subscribe-text {
+  font-size: 14px;
+  padding-right: 0.5em;
+}
+
+.input-group {
+  position: relative;
+}
+
+.subscribe-input {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 48px;
+  border-radius: 0;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #888;
+}
+
+.subscribe-input:required:invalid {
+  border: 1px solid rgb(226, 89, 89);
+}
+
+.button-envelope {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0.5em;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 360px;
+  height: 48px;
+}
+
+.social-media:last-child {
+  border-right: inherit;
+}
+
+.media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 52px;
+  height: 48px;
+  text-decoration: none;
+  border-right: 1px solid #ccc;
+  color: #444;
+}
+
+.media-link:hover {
+  background-color: #e24545;
+  border: none;
+  transition: all 0.2s;
+}
+
+@media (max-width: 992px) {
+  .subscribe-holder {
+    justify-content: center;
+  }
+  .subscribe-text {
+    width: 25%;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-right: 10px;
+  }
+  .input-holder {
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  .search-input {
+    display: none;
+  }
+  .social-media-holder {
+    justify-content: center !important;
+  }
+}
+
+/* desctop */
+@media (min-width: 768px) {
+  .navbar-collapse {
+    padding-right: 10px;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .about-phone-wrapper {
+    justify-content: center !important;
+  }
+  .about-phone {
+    width: 30%;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .btn-close {
+    top: 70px;
+    right: 25px;
+    position: absolute;
+  }
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    overflow: auto;
+  }
+  .is-open {
+    transform: translateY(0);
+    transition: all 0.2s;
+  }
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .nav-link {
+    font-size: 32px;
+  }
+  .dropdown-item {
+    font-size: 28px;
+  }
+  .shopping-block {
+    margin-left: 0;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .search-input {
+    position: relative;
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-link {
+    font-size: 30px;
+  }
+  .dropdown-item {
+    font-size: 25px;
+  }
+  .search-input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .dollar,
+  .total-price {
+    font-size: 20px;
+  }
+  .shopping-block {
+    width: 160px;
+    height: 50px;
+  }
+  .circle {
+    margin-left: 15.5em;
+  }
+  .about-phone-wrapper {
+    justify-content: center !important;
+  }
+  .about-phone {
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .subscribe-holder {
+    justify-content: center;
+  }
+  .subscribe-text {
+    flex: 0 0 auto;
+    width: 25%;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-right: 10px;
+  }
+  .input-holder {
+    width: 40%;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  .social-media-holder {
+    justify-content: center !important;
+  }
+}

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 33" width="52" height="33">
+	<title>card</title>
+	<defs>
+		<image  width="47" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAcCAMAAADGFxadAAAAAXNSR0IB2cksfwAAAotQTFRF+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj3+fn49/j49/f39/f4/////fz7+vr5///+//79///9+/r5+Pf4/Pv73eLomai+i561u8rX/v/+/v79/Pz7/v39/f38+Pn5x9Tio7nQr8PW6+/z//78/Pz63+bt4+nu9fX1+vn5/Pv6+Pv8VW2PEh9SK1iCEyJXi5av8vf5yM/a293l7O/x7fDy+/v6+/z85OnszdjkKF2TOGqcQG+fPm6e4Ofu5+3zy9fj8fP1iaXDMGOXwdDdx9Pf6+7y/Pv57/P1ATJlXnqa4OftJy5ZRFh8jqe9TGaLK015aIOiSWKJZXyc+/39T2uPQmGGobjPLWGWy9jlobnPCkKBoLbNhaLAVoCqRHOhztnkYYmwVYCq+Pr7+fn5+Pn4z9feACVbH0t4L096HjpqvMnVrbzMc4+qIEZ0PFB7RmqOOGGIn7XGEhtMvMfTmrTOFlGKaI2yM2aZdJe52uTrm7TNdpm5JFuRnLPLSHWikq3HgZawBRNLaISkh5u06/HzhpKtFzhphZy1ACpgaISirsDODzdqABVQWHWW8/b6PW2djKjFtsja7e/zSG+fdZi6dZi5N2qbpbvQIVmQvs3cQ2WLO0hwU1uEBCRadI+qFjJknrHF2uftFyFUDhxT6u7x1+LrGFGLprvS197nIUyIbpK2aIyyYYivm7PKN2ma6O3yydTezdrk/fz8+/v73ejurrfJsL7Nwc3Z9vj5rcDQBAxEi52y7fHzx9Xj7/L2+vr6+/r6zdzntcfZwtHg5Orv5Orw1N7p+vv6/f//VWeMOlB98PT3+fj49fb329zk6/Dz/P38+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4WxjC3QAAANl0Uk5TnOTw7fS+7v/h/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+Xnkdjoss0ekeYAAAGBSURBVHicY2BgZGImGrCwMrCxkwQYOEbVE6mek4uLkxshw8nOyQNm8HDy8mJTzwcE/Dw8PLzcPOw8PAJAniCQ5uUR4hMWFuFFVy8qJi4hKSUtw8cnKyfELi+ooKikrCIsxKeqpqKorqGpha5eW0dXT9/A0MjYhM/UzNzC0sraxtbO3sHRic/ZxdXN3QNdvaCnl7ePr59/QGBQcEhoWHhEZFR0TGxcfEJiUnJKahqG+/nSMzKzsnNy8/ILCouKS0rLyisqq6prauvqGxr5UjH8y8XX1NzS2tbe0dnV3dPb1z9hos2kyVOmTps+Y+as2XyY4SnAN2cuMETmzV+wcNHiJUuXLV+xko9v1eo1a9et37BRBkv4m2/avIVr67btO3bu2r1nL9++/QcOch06fOToseMnTmKJL24ePj5gaIPi4NTpM2flRPi28PBogeJAkO8cDxbzoYCL/eD5CxcvcUIMYccAmOmHmx0YrzjBIE7PtFF/mUT1V0hUf/XaZQ6iwfUbAImhfq6GmjtGAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="card" href="#img1" x="2" y="2" />
+</svg>
