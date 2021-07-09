@@ -9,6 +9,8 @@
   background-color: #fff;
   overflow-x: hidden;
   box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 .header-container {
@@ -223,15 +225,10 @@
   transition: all 0.2s;
 }
 
-.about-phone-wrapper {
-  justify-content: space-around;
-  margin-bottom: 80px;
-}
-
 .about-phone {
-  width: 23%;
   height: 375px;
   padding: 0;
+  margin-bottom: 25px;
 }
 
 .about-phone:hover .content-holder {
@@ -437,6 +434,7 @@
 .card-image {
   font-size: 32px;
   top: 0;
+  padding-right: 10px;
 }
 
 .cards-wrapper .card-image + .card-image {
@@ -476,13 +474,8 @@
   height: 203px;
 }
 
-.subscribe-holder {
-  margin-right: 0;
-}
-
 .subscribe-text {
   font-size: 14px;
-  padding-right: 0.5em;
 }
 
 .input-group {
@@ -499,7 +492,6 @@
   flex-grow: 1;
   padding-left: 10px;
   font-size: 12px;
-  font-weight: bold;
   line-height: 22px;
   color: #888;
 }
@@ -516,28 +508,18 @@
   margin-right: 0.5em;
 }
 
-.social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ccc;
-  width: 360px;
-  height: 48px;
-}
-
-.social-media:last-child {
-  border-right: inherit;
+.social-media .media-link + .media-link {
+  left: 1px;
 }
 
 .media-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  width: 52px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
   text-decoration: none;
-  border-right: 1px solid #ccc;
+  border: 1px solid #ccc;
   color: #444;
 }
 
@@ -548,24 +530,33 @@
 }
 
 @media (max-width: 992px) {
+  .card-image {
+    font-size: 26px;
+    top: 0;
+    padding-right: 7px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
   .subscribe-holder {
     justify-content: center;
   }
   .subscribe-text {
-    width: 25%;
-    align-items: center;
-    margin-bottom: 2em;
-    margin-right: 10px;
+    margin-bottom: 25px;
   }
   .input-holder {
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 25px;
   }
   .search-input {
     display: none;
   }
   .social-media-holder {
-    justify-content: center !important;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -578,16 +569,8 @@
 
 /* mobile */
 @media (max-width: 767px) {
-  .about-phone-wrapper {
-    justify-content: center !important;
-  }
-  .about-phone {
-    width: 30%;
-    margin-right: 40px;
-    margin-left: 40px;
-  }
   .btn-close {
-    top: 70px;
+    top: 30px;
     right: 25px;
     position: absolute;
   }
@@ -615,10 +598,10 @@
     margin-bottom: 15px;
   }
   .nav-link {
-    font-size: 32px;
+    font-size: 18px;
   }
   .dropdown-item {
-    font-size: 28px;
+    font-size: 16px;
   }
   .shopping-block {
     margin-left: 0;
@@ -632,55 +615,115 @@
     position: relative;
     transform: translate(0, 0);
   }
+  .card-image {
+    font-size: 18px;
+    top: 0;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  .copyright-row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .cards-wrapper {
+    justify-content: center !important;
+  }
 }
 
 @media (max-width: 575px) {
   .nav-link {
-    font-size: 30px;
+    font-size: 16px;
   }
   .dropdown-item {
-    font-size: 25px;
+    font-size: 14px;
   }
   .search-input {
-    width: 500px;
-    height: 40px;
-    font-size: 20px;
+    max-width: 250px;
+    height: 25px;
+    font-size: 14px;
   }
   .dollar,
   .total-price {
-    font-size: 20px;
+    font-size: 16px;
   }
   .shopping-block {
-    width: 160px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
   }
   .circle {
-    margin-left: 15.5em;
+    margin-left: 15em;
+  }
+  .wishlist-text-wrapper {
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 15px;
+    font-size: 24px;
   }
   .about-phone-wrapper {
-    justify-content: center !important;
-  }
-  .about-phone {
-    width: 30%;
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-  .subscribe-holder {
+    display: flex;
     justify-content: center;
   }
-  .subscribe-text {
-    flex: 0 0 auto;
-    width: 25%;
+  .about-phone {
+    justify-content: center;
+    width: 280px;
+  }
+  .card-image {
+    font-size: 16px;
+    top: 0;
+  }
+  .card-title {
+    font-size: 12px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .subscribe-holder {
     align-items: center;
-    margin-bottom: 2em;
-    margin-right: 10px;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    justify-content: center;
+  }
+  .subscribe-input {
+    height: 35px;
+  }
+  .subscribe-text {
+    width: 300px;
+    text-align: center;
+    flex: 0 0 auto;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
   }
   .input-holder {
-    width: 40%;
     align-items: center;
-    margin-bottom: 2em;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .social-media-holder {
     justify-content: center !important;
+  }
+  .media-link {
+    width: 40px;
+    height: 40px;
+  }
+  .copyright-container {
+    width: 350px;
+  }
+  .copyright-text {
+    font-size: 10px;
+    text-align: center;
+    white-space: nowrap;
   }
 }
